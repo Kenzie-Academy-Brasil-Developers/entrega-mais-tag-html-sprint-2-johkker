@@ -1,3 +1,5 @@
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@398;700&family=Roboto:wght@300&display=swap');
+    
     .profilePicture {
         border-radius: 12%;
         display: block;
@@ -55,9 +57,11 @@
     }
 
     .highlighttext {
-        background-color: rgba(15, 0, 12, 1);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        background-color: rgba(26, 0, 20, 0.616);
         color: rgb(0, 183, 255);
-        size: 20pt;
+        size: 16pt;
         text-align: center;
         border-radius: 12%;
         display: block;
@@ -72,14 +76,12 @@
 
     aside {
         width: 20vw;
-        background-color: black;
-        font-size: larger;
-        font-weight: bold;
+        background-color:#460046;
+        font: weight 700px;;
         text-align: center;
         text-orientation: inherit;
-        text-decoration-color: magenta;
-        color: rgb(207, 0, 138);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(245, 0, 163);
+        font-family: 'Quicksand', sans-serif;
         font-size: medium;
     }
 
@@ -91,13 +93,16 @@
     button {
         background-color: #460046;
         border: 2pt;
+        border-color: royalblue;
         color: rgb(0, 145, 241);
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+        font-weight: 600;
         width: 20vw;
+        font-family: 'Quicksand', sans-serif;
 
 
     }
@@ -130,24 +135,33 @@ body {
         text-decoration: none;
     }
 
+    .socialIcons {
+        display: inline;
+        list-style-position: inside;
+    }
 
 
-
-    ol {
-        list-style-image: url("https://i.ibb.co/sghFKWY/arrow-24-16.png");
+    .asideMenu {
+        list-style-image: url("https://i.ibb.co/Wn4qHYs/Forward-arrow-icon-4.png");
         margin-top: 80px;
     }
  
-    ul {
-     list-style-image: url("https://i.ibb.co/sghFKWY/arrow-24-16.png");
-     margin-top: 80px;
- } 
 
     summary {
         color:rgb(255, 0, 191);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 25pt;
+        cursor: pointer;
+        list-style: none;
+        margin: 20px;
+        padding: 20pt;
     }
 
+    .songPlaylists {
+        flex-direction: row;
+        display: flex;
+        width: 300px;
+        height: auto;
 
-    
+    }
+
